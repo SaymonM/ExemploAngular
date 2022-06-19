@@ -1,5 +1,6 @@
 .listacomputadores {
-    background-color: aquamarine;
+    background-color: rgba(17, 17, 17, 0.774);
+    height: 500px;
 }
 
 .listacomputadores h1{
@@ -7,7 +8,11 @@
 }
 
 .boxcomputadores {
-    background-color: blue;
-    border-radius: 3%;
-    width: 100%;
+    width: 8.7em;
+    height: 16.5em;
+    background: rgb(1, 15, 56);
+    color: #ffff;
+    margin-bottom: 1em;
+    box-shadow: 0px 0px 10px rgb(3, 153, 103),0px 0px 30px rgba(0, 0, 0, 0.342);
+    justify-content: space-between;
 }

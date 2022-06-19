@@ -1,3 +1,68 @@
-<p>contatos works!</p>
-<a routerLink="">Link para Home</a>
-<a routerLink="../sobre">Link para Sobre</a>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    
+    legend{
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(6, 13, 53);
+        border-radius: 8px;
+    }
+</style>
+
+<section class="form-contato">
+    <div class="container-box">
+        <form onsubmit="onSubmit()">
+                <fieldset>
+                    <legend ><b>Formulário Para Contato</b></legend>
+                    
+                    <div class="input-box">
+                        <input type="text" name="nome" id="nome" class="input-user">
+                        <label for="nome">Nome Completo</label>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <input type="email" name="email" id="email" class="input-user">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <input type="tel" name="telefone" id="telefone" class="input-user">
+                        <label for="telefone">Telefone</label>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <label>Motivo do Contato</label>
+                        <select>
+                            <option selected disabled value="">Selecione...</option>
+                            <option>Suporte</option>
+                            <option>Vendas</option>
+                            <option>Outros</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <input type="tel" name="telefone" id="telefone" class="input-user">
+                        <label for="telefone">Cidade</label>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <input type="tel" name="telefone" id="telefone" class="input-user">
+                        <label for="telefone">Estado</label>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <input type="tel" name="telefone" id="telefone" class="input-user">
+                        <label for="telefone">Endereço</label>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <label>Observações</label>
+                        <textarea name="observacoes"></textarea>
+                    </div>
+                    <div>
+                        <button>Enviar</button>
+                    </div>
+                </fieldset>
+        </form>
+    </div>
+</section>
