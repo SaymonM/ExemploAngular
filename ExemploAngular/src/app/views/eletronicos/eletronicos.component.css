@@ -1,0 +1,13 @@
+.listacomputadores {
+    background-color: aquamarine;
+}
+
+.listacomputadores h1{
+    background-color: aquamarine;
+    align-items: center;
+}
+
+.boxcomputadores {
+    background-color: blue;
+    border-radius: 3%;
+}

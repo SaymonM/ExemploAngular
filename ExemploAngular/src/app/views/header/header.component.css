@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
     overflow-x: hidden;
+    
 }
 
 @font-face {
@@ -17,6 +19,7 @@ body{
     width: 1366px;
     margin: 0;
     justify-content: space-between;
+    background-color: #2D2A2A;
 }
 
 .posi-header {
@@ -27,15 +30,17 @@ body{
 }
 
 .menu {
+    
     width: 900px;
     align-items: flex-start;
-    word-spacing: 30px;
+    
 }
 
 .menu a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 35px;
+    
     
 }
 
@@ -45,204 +50,8 @@ body{
    right: 15%;
 }
 
-.banner {
-    height: 320px;
-    width: 1366px;
-    background-image: url(/assets/img/Banner.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
 
-
-.texto-bn {
-    color: white;
-    font-family: Quantico;
-    display: flexbox;
-    font-size: 30px;
-    text-align: center;
-    padding: 10px;
-}
-
-.texto-bn h4{
-    margin-bottom: 60px;
-}
-
-
-
-.texto-bn a{
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    
-}
-
-.computadores {
-    background-color: #2D2A2A;
-    display: flex;
-    justify-content: center;
-    width: 1366px;
-    height: 300px;
-}
-
-.computadores h1{
-    font-family: Quantico;
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
-.pcs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 80px;
-    padding-top: 20px;
-    
-}
-.pcs p{
-    color: white;
-    padding-top: 5px;
-}
-
-.pcsm {
-    background-color: #2d2a2a62;
-}
-
-#infos {
-   background-color:black;
-   width: 1366px;
-   height: 100px;
-}
-
-#infos h4{
-    color: white;
-    text-shadow: #1d91c770;
-}
-#infos h6{
-    color: white;
-    text-shadow: #1d91c770;
-}
-
-.cadastro{
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-}
-
-#campoemail {
-    width: 270px;
-}
-
-.btncadastro {
-    display: flex;
-    justify-content: center;
-    background-color: #0d6efd;
-    border: 1px;
-    border-color: #0d6efd;
-    color: white;
-    border-radius: 5px;
-    text-indent: 0px;
-    text-shadow: none;
-    letter-spacing: normal;
-    word-spacing: normal;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    border-radius: .25rem;
-    transition: color .15s;
-    margin-top: 10px;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    width: 270px;
-    height: 35px;
-}
-
-.btncadastro:hover {
-    background-color: #0a58ca;
-    border-color: #0a58ca;
-}
-
-.cardnov {
-    width: 12.5em;
-    height: 22.5em;
-    background: black;
-    color: #ffff;
-    margin-bottom: 2em;
-    box-shadow: 0px 0px 10px rgb(10, 89, 235),0px 0px 30px rgba(10, 89, 235, 0.342);
-}
-
-.novidadesbox .container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.cardnov h3{
-    padding-left: 20px;
-    padding-top: 5px;
-    font-size: 24px;
-}
-
-.cardnov p{
-    padding-left: 20px;
-    font-size: 16px;
-}
-
-.novidadesbox {
-    background-color: #56565760;
-    padding: 30px 0 ;
-}
-
-.novidadesarea {
-    width: 100%;
-}
-
-.content-nov {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 25px;
-}
-
-.computadoresbox {
-    background-color: darkcyan;
-    padding: 30px 0 ;
-}
-
-.computadoresbox .container-computador {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-}
-
-.computador-area{
-    width: 100%;
-    height: 100%;
-}
-
-.conteudo-pcs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-}
-
-
-
-.listacomputadores {
-    width: 12.7em;
-    height: 16.5em;
-    background: rgb(1, 15, 56);
-    color: #ffff;
-    margin-bottom: 1em;
-    box-shadow: 0px 0px 10px rgb(3, 153, 103),0px 0px 30px rgba(0, 0, 0, 0.342);
-}
 
 @media screen and (max-width: 1200px){
     header{
