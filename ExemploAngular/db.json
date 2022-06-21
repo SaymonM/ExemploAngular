@@ -1,0 +1,34 @@
+{
+  "noticia": [
+    {
+      "titulo": "Noticia 1",
+      "descricao": "Essa é a descrição modificada da notícia 1",
+      "id": 1
+    },
+    {
+      "titulo": "Noticia 2",
+      "descricao": "Essa é a descrição da notícia 2",
+      "id": 2
+    },
+    {
+      "titulo": "Noticia 3",
+      "descricao": "Essa é a descrição da notícia 3",
+      "id": 3
+    },
+    {
+      "titulo": "Noticia 4",
+      "descricao": "Essa é a descrição da notícia 4",
+      "id": 4
+    },
+    {
+      "titulo": "Noticia 5",
+      "descricao": "Essa é a descrição da notícia 5",
+      "id": 5
+    },
+    {
+      "titulo": "Noticia 6",
+      "descricao": "Essa é a descrição da notícia 6",
+      "id": 6
+    }
+  ]
+}

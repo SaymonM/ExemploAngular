@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Noticia } from 'src/app/models/noticia';
 import { User } from 'src/app/models/user';
+import { NoticiaService } from 'src/app/services/noticia.service';
 
 @Component({
   selector: 'app-home',
@@ -8,11 +10,20 @@ import { User } from 'src/app/models/user';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  noticia = [] as Noticia[];
+
+  constructor(private noticiaSerivce: NoticiaService) { }
 
   ngOnInit(): void {
+    this.carregarNoticia();
   }
 
+  carregarNoticia(){
+    this.noticiaSerivce.getNoticia().subscribe( (noticiaRecebida: Noticia[]) => {
+      this.noticia = noticiaRecebida;
+      console.log(this.noticia)
+    } )
+  }
 
   userModel = new User("", "");
 
