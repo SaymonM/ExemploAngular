@@ -14,6 +14,7 @@ import { NovidadesComponent } from './views/novidades/novidades.component';
 import { ComputadoresComponent } from './views/computadores/computadores.component';
 import { EletronicosComponent } from './views/eletronicos/eletronicos.component';
 import { NoticiaComponent } from './views/noticia/noticia.component';
+import { LoginComponent } from './views/login/login.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NoticiaComponent } from './views/noticia/noticia.component';
     NovidadesComponent,
     ComputadoresComponent,
     EletronicosComponent,
-    NoticiaComponent
+    NoticiaComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

@@ -4,6 +4,7 @@ import { ComputadoresComponent } from './views/computadores/computadores.compone
 import { ContatosComponent } from './views/contatos/contatos.component';
 import { EletronicosComponent } from './views/eletronicos/eletronicos.component';
 import { HomeComponent } from './views/home/home.component';
+import { LoginComponent } from './views/login/login.component';
 import { NoticiaComponent } from './views/noticia/noticia.component';
 import { NovidadesComponent } from './views/novidades/novidades.component';
 
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path: "novidades", component: NovidadesComponent},
   {path: "computadores", component: ComputadoresComponent},
   {path: "eletronicos", component: EletronicosComponent},
-  {path: "noticias", component: NoticiaComponent}
+  {path: "noticias", component: NoticiaComponent},
+  {path: "login", component: LoginComponent}
 ];
 
 @NgModule({
